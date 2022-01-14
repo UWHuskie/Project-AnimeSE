@@ -3,9 +3,18 @@
     padding: 10px;
     margin: 0;
 }
+.top-bar {
+    background:#333;
+
+}
+.menu {
+    background:#333;
+}
+
 body{
     background-color:skyblue;
 }
+
 h1 {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -13,6 +22,7 @@ h1 {
     border: solid;
     border-width: thick;
     border-radius: 8px;
+<<<<<<< HEAD
     position: relative;
     color: white;
     text-shadow: 2px 2px 5px red;
@@ -24,9 +34,23 @@ h1 {
     margin-left: 800px;
 }
 h1 {
+=======
+>>>>>>> dev
     display: inline-block;
     font-size: 48px;
+    margin-left: 800px;
 }
+
+.searchBar {
+    width: 213px;
+}
+
+aside {
+    border: solid #333;
+    height: fit-content;
+    width: fit-content;
+}
+
 
 nav {
     padding-top: 15px;
@@ -34,15 +58,20 @@ nav {
     float: left;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-
-
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.searchBtn {
+    height: 39px;
 }
 
 nav ul li {
-    display: inline-block;
     margin-left: 150px;
+    margin-right: 20px;
     border-bottom: 3px solid white;
     font-size: 35px;
+<<<<<<< HEAD
     background-color:skyblue;
     color: white;
 
@@ -52,6 +81,10 @@ a:hover {
     background-color: #ddd;
     color: black;
 }
+=======
+}
+
+>>>>>>> dev
 a {
     color: white;
     text-decoration: none;
@@ -68,6 +101,7 @@ a {
     clear: both;
   }
 
+<<<<<<< HEAD
   aside{
     border: solid black;
     float: right;
@@ -86,9 +120,10 @@ article img{
    margin-left: 150px;
    height:450px ;
 }
+=======
+>>>>>>> dev
 
 .footer {
-    padding: 500px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
@@ -97,7 +132,10 @@ article img{
 
 .footer h2 {
     font-size: 20px;
+<<<<<<< HEAD
     padding-bottom: 0px;
   
   
+=======
+>>>>>>> dev
 }
